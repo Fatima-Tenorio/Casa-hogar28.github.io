@@ -1,0 +1,83 @@
+/* ==== ESTILO GENERAL ==== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #FFF9F4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ==== ENCABEZADO ==== */
+header {
+  background-color: #F4AAB9;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  border-bottom: 5px solid #D9BDEB;
+}
+
+h1 {
+  font-size: 2.8em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+  color: #7EAC7F;
+  margin-top: 20px;
+}
+
+/* ==== SECCIONES ==== */
+section {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+/* ==== BOTONES O ELEMENTOS INTERACTIVOS ==== */
+button, .boton {
+  background-color: #FBC18C;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .boton:hover {
+  background-color: #FFE7A2;
+}
+
+/* ==== ENLACES ==== */
+a {
+  color: #D97ABF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ==== NAVEGACIÓN ==== */
+nav {
+  background-color: #FFE7A2;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 2px solid #F4AAB9;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #7EAC7F;
+  font-weight: bold;
+}
+
+/* ==== PIE DE PÁGINA =*
